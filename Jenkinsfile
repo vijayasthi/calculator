@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test build automation'
-                bat 'C:/Users/vasthi/AppData/Local/Programs/Python/Python37-32/pytest.exe pytest'
+                bat 'C:/Users/vasthi/AppData/Local/Programs/Python/Python37-32/virtualenv.exe pytest'
 			}
 		}
 	}
