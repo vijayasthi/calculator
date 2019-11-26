@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test build automation'
-                bat 'pytest -v --cov'
+                //bat 'pytest -v --cov'
 			}
 		}
 	}
