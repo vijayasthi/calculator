@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
 		//bat 'py -m pip install flake8 pytest pytest-cov'
+		bat 'flake8'
             }
 		}
         stage('Test') {
