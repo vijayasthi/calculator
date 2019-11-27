@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
 		//bat 'py -m pip install flake8 pytest pytest-cov'
-		bat 'flake8'
+		bat 'C:/Users/vasthi/AppData/Local/Programs/Python/Python37-32/python.exe flake8'
             }
 		}
         stage('Test') {
